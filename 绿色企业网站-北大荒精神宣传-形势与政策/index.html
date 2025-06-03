@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>首页</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Edible Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- //bootstrap-css -->
+<!-- css -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- //css -->
+<!-- fonts -->
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- //fonts -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+		
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--baner-->
+	<div class="banner">
+		<!-- container -->
+		<div class="container">
+			<div class="banner-top">
+				<div class="social">
+					<ul>
+						<li><a href="#" class="facebook"> </a></li>
+						<li><a href="#" class="facebook twitter"> </a></li>
+						<li><a href="#" class="facebook chrome"> </a></li>
+						<li><a href="#" class="facebook dribbble"> </a></li>
+					</ul>
+				</div>
+				<div class="header-top-right">
+					<form>
+						<input type="text" placeholder="Search" required="">
+						<input type="submit" value="">
+						<div class="clearfix"> </div>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="banner-top-grid">
+				<script src="js/responsiveslides.min.js"></script>
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+						$("#slider3").responsiveSlides({
+							auto: false,
+							pager: true,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						 });				
+					});
+				</script>
+				<div  id="top" class="callbacks_container-wrap">
+					<ul class="rslides" id="slider3">
+						<li>
+							<div class="banner-info">
+								<h3>北大荒 <span>精</span>神</h3>
+								<h5>重要时代价值</h5>
+								<p>从荒芜到富饶，北大荒精神见证拓荒伟绩。在当下，它激励创业创新，凝聚奋进力量，是时代征程中永不褪色的精神旗帜 。</p>
+								<div class="banner-buttons">
+									<div class="banner-button white-button">
+										<a href="#">Click</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<h3>Vel <span>molestie</span> elit condimentum</h3>
+								<h5>molestie elit condi</h5>
+								<p> Morbi quis sed dignissim augue ut ex cursus, vel molestie elit condimentum.  mattis nec ipsum. tincidunt urna, eget laoreet felis. Curabitur ut pulvinar dui.</p>
+								<div class="banner-buttons">
+									<div class="banner-button white-button">
+										<a href="#">Click</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<h3>Curabitur <span>utpul</span> vinar duicursus</h3>
+								<h5>molestie elit condi</h5>
+								<p>Molestie sed dignissim augue ut ex cursus, vel elit condimentum.  mattis nec ipsum. Morbi quis tincidunt urna, eget laoreet felis, eget laoreet felis.</p>
+								<div class="banner-buttons">
+									<div class="banner-button white-button">
+										<a href="#">Click</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>	
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!--//baner-->
+	<div class="top-nav">
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<div class="logo">
+						<h1><a href="index.html">热血丰碑</a></h1>
+					</div>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-center">
+						<li><a href="index.html" class="active">首页</a></li>
+						<li><a href="about.html">关于北大荒</a></li>					
+						<li><a href="codes.html">Codes</a></li>
+						<li><a href="#services" class="scroll">Services</a></li>
+						<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">画廊<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a class="hvr-bounce-to-bottom"  href="gallery.html">画廊1</a></li>
+									<li class="dropdown-submenu">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown-submenu" role="button" aria-haspopup="true" aria-expanded="false">画廊2<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li><a tabindex="-1" href="gallery.html">画廊4</a></li>
+											<li><a href="gallery.html">画廊5</a></li>
+											 <li><a href="gallery.html">画廊6</a></li>
+										</ul>
+									</li>
+									<li><a class="hvr-bounce-to-bottom" href="gallery.html">画廊3</a></li>           
+								</ul>
+							</li>		
+						<li><a href="contact.html">Contact</a></li>
+					</ul>	
+					<div class="clearfix"> </div>
+				</div>
+			</div>	
+		</nav>		
+	</div>	
+    <div class="copyrights">Collect from <a href="https://www.webmoban.net" >byau</a></div>
+	<!-- script-for sticky-nav -->
+			<script>
+			$(document).ready(function() {
+				 var navoffeset=$(".top-nav").offset().top;
+				 $(window).scroll(function(){
+					var scrollpos=$(window).scrollTop(); 
+					if(scrollpos >=navoffeset){
+						$(".top-nav").addClass("fixed");
+					}else{
+						$(".top-nav").removeClass("fixed");
+					}
+				 });
+				 
+			});
+			</script>
+			<!-- /script-for sticky-nav -->
+	<!--navigation-->
+	<!-- banner-bottom -->
+	<div class="welcome">
+		<div class="welcome-left">
+			<h3>北大荒精神</h3>
+			<h4>时代的精神坐标</h4>
+			<p>北大荒精神诞生于拓荒者们征服自然、建设家园的伟大实践
+				，是中华民族精神谱系的重要组成部分，历经岁月洗礼，依然闪耀着时代光芒，
+				激励着一代又一代人为国家繁荣、民族复兴不懈奋斗” 。
+			</p>
+		</div>
+		<div class="welcome-right">
+				
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- offer -->
+	<div class="welcome offer">
+		<div class="welcome-left offer-left">
+			<h3>北大荒精神的多元呈现</h3>
+			<p>《北大荒风云》等纪录片，
+				出版《北大荒史诗》等书籍，
+				创作《北大荒人的歌》等文艺作品
+			</p>
+			<div class="offer-left-list">
+				<ul>
+					<li><a href="#">《北大荒记忆》深度挖掘拓荒历史</a></li>
+					<li><a href="#">VR纪录片《重走垦荒路》上线</a></li>
+					<li><a href="#">小说《黑土丰碑》再现奋斗岁月</a></li>
+					<li><a href="#">纪实文学《荒原星火》收录故事</a></li>
+				</ul>
+			</div>
+			<div class="offer-left-list">
+				<ul>
+					<li><a href="#">歌舞剧《北大荒之歌》全国巡演</a></li>
+					<li><a href="#">主题油画展《热土魂》巡回展出</a></li>
+					<li><a href="#">“北大荒精神”主题研学路线开通</a></li>
+					<li><a href="#">《永恒的丰碑》全景呈现历史文物</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<div class="welcome-right offer-right">
+			
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //offer -->
+	<!-- new -->
+	<div class="welcome new">
+		<div class="welcome-left new-left">
+			<h3>北大荒精神新动态</h3>
+			<div class="new-grids">
+				<div class="date">
+					<p>23</p>
+					<span>June</span>
+				</div>
+				<div class="new-grid-right">
+					<p>北大荒多所学校开展主题活动，通过演讲、展馆参观等形式传承北大荒精神。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="new-grids">
+				<div class="date">
+					<p>09</p>
+					<span>May</span>
+				</div>
+				<div class="new-grid-right">
+					<p>全省农业春播劳动和技能竞赛在友谊农场举办，智慧农机装备成亮点，大幅提升春播生产效能。</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="welcome-right new-right">
+			
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- //new -->
+	<!-- services -->
+	<div id="services" class="services">
+		<!-- container -->
+		<div class="container">
+			<div class="services-info">
+				<h3>Services</h3>
+			</div>
+			<div class="services-grids">
+				<div class="col-md-4 services-grid">
+					<div class="services-icon">
+						<span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
+					</div>
+					<h4>精神传承教育</h4>
+					<p>在学校、社区开展北大荒精神主题讲座与培训课程，定期组织参观北大荒历史纪念馆，让更多人了解和传承北大荒精神</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<div class="services-icon">
+						<span class="glyphicon glyphicon-asterisk glyphicon-check" aria-hidden="true"></span>
+					</div>
+					<h4>农业发展助力</h4>
+					<p>以北大荒精神为指引，推广先进农业技术，帮扶周边农户改良种植方法，提高农作物产量</p>
+				</div>
+				<div class="col-md-4 services-grid">
+					<div class="services-icon">
+						<span class="glyphicon glyphicon-asterisk glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<h4>荣誉与传承</h4>
+					<p>表彰在传承北大荒精神和农业建设中表现突出的个人与集体</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- services -->
+	<!-- new-bottom -->
+	<div class="new-bottom">
+		<!-- container -->
+		<div class="container">
+			<div class="new-bottom-info">
+				<h2>以奋斗为帆领航现代农业新征程!</h2>
+				<p>践行绿色发展理念,打造生态农业链,守护国家粮食安全生命线.</p>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //new-bottom -->
+	<!-- footer -->
+	<div class="footer">
+		<!-- container -->
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-4 footer-grid">
+					<div class="footer-grid-info">
+						<h3>Essential</h3>
+					</div>
+					<div class="footer-grid-list">
+						<ul>
+							<li><a href="#">奋 斗 足 迹</a></li>
+							<li><a href="#">开拓 先锋	</a></li>
+							<li><a href="#">大局 担当</a></li>
+							<li><a href="#">奉献 之光</a></li>
+							<li><a href="#">精神 传承</a></li>
+							<li><a href="#">垦荒 岁月</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 footer-grid">
+					<div class="footer-grid-info">
+						<h3>Address</h3>
+					</div>
+					<div class="footer-grid-list">
+						<h4>Headquarters</h4>
+						<p> Globel Place
+							<span>Heilongjiang byau</span>
+							Da Qing, Heilongjiang Province. 
+						</p>
+						<h4>Get In Touch</h4>
+						<p>Telephone : +1 513 073 9676
+							<span>QQ : +1 073 279 541</span>
+							E-mail : <a href="mailto:info@example.com">wei96804529@gmail.com</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 footer-grid">
+					<div class="footer-grid-info">
+						<h3>Stay in touch</h3>
+					</div>
+					<div class="footer-grid-list">
+						<form>
+							<input type="text" value="Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!-- container -->
+	</div>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="copyright">
+		<!-- container -->
+		<div class="container">
+			<p>Copyright &copy; 2015.Company name All rights reserved.More Infomation <a href="https://www.webmoban.net" target="_blank" title="网站模板">byau</a> - Collect from <a href="https://www.webmoban.net" title="网页模板" target="_blank">byau</a></p>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- //copyright -->
+</body>
+</html>
